@@ -1,0 +1,46 @@
+#form_commentslist {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #d9f3ca;
+    width: 900px;
+    margin-left : 60px;
+    opacity: 0.85;
+}
+
+#commentslist_firstname{
+  width: auto;
+}
+
+#commentslist_lastname{
+  width: auto;
+}
+
+#commentslist_contenu{
+  font-family: 'Roboto', sans-serif;
+  resize: none;
+  padding: 5px;
+  height: 100px;
+  width: 850px;
+  resize:none;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+#commentslist_contenu:focus{
+  outline: none;
+  border-color: #9ac0cd;
+  box-shadow: 0 0 0 2px rgba(0, 126, 255, 0.1);
+}
+
+button[type="commentslist_button"]{
+  margin-left: 86%;
+  margin-bottom: 5px;
+  height: auto;
+  width: auto;
+  font-weight: bold;
+}
+
+button[type="commentslist_button"]:hover{
+  background-color: green;
+} 

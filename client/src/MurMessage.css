@@ -1,0 +1,225 @@
+#body_mur{
+    display: flex;
+    background-color: rgb(212, 233, 212);
+    flex-direction: column;
+}
+
+#header_mur{
+    display: flex;
+    background-color: rgb(162, 223, 182);
+    opacity: 0.85;
+    /*border: 5px solid black;*/
+}
+
+#logo_size_mur{
+    width: 100px;
+    height: 100px;
+}
+
+
+#home_page_mur{
+   /* background-color: red;*/
+    width: 100px;
+    height: 100px;
+}
+
+#profil1_mur{
+   /* background-color: green;*/
+    width: 100px;
+    height: 100px;
+}
+
+#personne_mur{
+   /* background-color: royalblue;*/
+    width: 100px;
+    height: 100px;
+}
+
+#pin_mur{
+   /* background-color: white;*/
+    width: 100px;
+    height: 100px;
+}
+
+#mur_search_bar{
+    display: flex;
+    /*background-color: aquamarine;*/
+    margin :auto;
+}
+
+
+#request { /*Dans SearchBar*/
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    margin-top :20px;
+}
+
+
+#request:focus {
+    outline: none;
+    border-bottom: 2px solid #5cb950;
+}
+
+
+#request_all{
+    display: flex;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+#request_friends{
+    display: flex;
+    font-weight: bold;
+    margin-top: -35px;
+    margin-left: 250px;
+    font-size: 18px;
+}
+
+
+
+#find_button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+
+#disconnect {
+    display: flex;
+    text-align: center;
+    margin-right: 5%;
+}
+
+#logout_logo{
+    width: 100px;
+    height: 100px;
+    margin-top: -20%;
+}
+
+
+#main_mur{
+   display: flex;
+   padding: 1%;
+}
+
+
+
+#profile_picture_mur{
+    width: 300px;
+   border-right: 3px solid black;
+   background-color: rgb(182, 225, 213);
+   border-radius: 3%;
+   opacity: 0.9;
+}
+
+#profile_pic_mur{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+#my_profile_mur{
+    display: flex;
+    background-color: rgb(150, 187, 224);
+    text-align: center;
+    margin: auto;
+    /*
+    margin-top: 5%;
+    margin-left: 37%;
+    */
+    border : none;
+    font-weight: bold;
+    font-size : 20px;
+
+}
+
+#friends_list_mur{
+    width: 100%;
+   /* background-color: lightcoral;*/
+}
+
+
+
+#section_mur{
+    /*border: 5px solid black;*/
+}
+
+
+
+#messages_mur{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+   /* background-color: white;*/
+}
+
+#friends_list_title{
+    display: flex;
+    /*margin-left: 95px;*/
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size : 25px;
+    width: 115px;
+    border-bottom: 5px solid black;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  
+#section_stats{
+    display: flex;
+    background-color: rgb(191, 236, 191);
+    width: 350px;
+    height: 355px;
+    margin-left: 75px;
+    margin-top : 150px;
+    border-radius: 15px;
+    border: 1px solid black;
+    opacity: 0.85;
+}
+
+#title_stats{
+    border-bottom : 5px solid black;
+    height: 30px;
+    margin-left: 130px;
+    margin-top: 20px;
+    color:black;
+}
+
+#valeur_stats{
+    /*border : 1px solid black;*/
+    margin-top: 100px;
+    position: relative;
+    right: 200px;
+    height: 300px;
+    width: 250px;
+}
+
+#infos_stats{
+   /* border : 1px solid blue;*/
+    width: 325px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: -45px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color :black;
+    font-weight: bold;
+}

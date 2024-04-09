@@ -1,0 +1,99 @@
+#form_signin {
+    padding: 5%;
+    width: 300px;
+    margin: auto;
+    margin-top : -90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+#title_signin{
+    color: green;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;			
+}
+
+input {
+    margin-bottom: 1.5em;
+}
+
+
+#signin_s,#signin_reset {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: rgb(150, 216, 150);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#logo_{
+    margin-top: -30px;
+    width: 150px;
+    height: 150px;
+    margin-left: 0%;
+}
+
+#error_password{
+    width: 300px;
+    text-align: center;
+}
+
+#login_page_signin{
+    display: flex;
+    position : relative;
+    left : 50%;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: rgb(150, 216, 150);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border: 5px solid black;
+    justify-content: center;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+#message_signin{
+    width: 750px;
+    text-align: center;
+    color: red;
+    position : relative;
+    top : -20px;
+}
+
+#signin_s{
+    position : relative;
+    left : 50%;
+    margin-left : -100px;
+}
+
+#signin_reset{
+    position : relative;
+    left : 50%;
+    top : -50%;
+    margin-left : 50px;
+}
+
+#login_page_signin{
+    margin-top: -20px;
+    margin-left : -80%;
+}

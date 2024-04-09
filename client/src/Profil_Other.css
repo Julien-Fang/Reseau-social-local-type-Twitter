@@ -1,0 +1,238 @@
+#body_profil_other{
+    display: flex;
+   /* background-color: pink;*/
+    flex-direction: column;
+}
+
+#header_other{
+    display: flex;
+    background-color: rgb(162, 223, 182);
+}
+
+#logo_size_other{
+    width: 100px;
+    height: 100px;
+}
+
+#home_page_other{
+    width: 100px;
+    height: 100px;
+}
+
+#home_page_other:hover{
+    cursor: pointer;
+}
+
+#profil1_other{
+    width: 100px;
+    height: 100px;
+}
+
+
+#personne_other{
+    width: 100px;
+    height: 100px;
+}
+
+#pin_other{
+    width: 100px;
+    height: 100px;
+}
+
+#profil_search_bar{
+    display: flex;
+    /*background-color: aquamarine;*/
+    margin :auto;
+}
+
+#request { /*Dans SearchBar*/
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    margin-top :20px;
+}
+
+#request:focus {
+    outline: none;
+    border-bottom: 2px solid #5cb950;
+}
+
+#request_all{
+    display: flex;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#find_button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+
+#disconnect_other{
+    display: flex;
+   /* background-color : red;*/
+    text-align: center;
+    margin-right: 5%;
+}
+
+
+#main_profil_other{
+    display: flex;
+    padding : 1%
+ }
+
+#friends_list_profil_other{
+    width: 400px;
+    border-right: 3px solid black;
+    background-color: rgb(182, 225, 213);
+    border-radius: 3%;
+}
+
+
+#friends_button_other{
+    display:"flex";
+    margin-top:10px;
+    margin-left:10%
+}
+
+#friends_button_other:hover{
+    border : 1px solid black;
+    transform: scale(1.3);
+    color: #fff;
+    background-color: green;
+}
+
+
+#followers_button_other{
+    display:"flex";
+    margin-top:10px;
+    margin-left: 12%;
+}
+
+
+#common_button_other{
+    display: flex;
+    margin-top:-22px;
+    margin-left: 70%;
+}
+
+#common_button_other:hover{
+    border : 1px solid black;
+    transform: scale(1.3);
+    color: #fff;
+    background-color: green;
+}
+
+#followers_button_other:hover{
+    border : 1px solid black;
+    transform: scale(1.3);
+    color: #fff;
+    background-color: green;
+}
+
+
+#friends_list_title_other{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size : 25px;
+    width: 60px;
+    border-bottom: 5px solid black;
+}
+
+#followers_list_title_other{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size : 25px;
+    width: 110px;
+    border-bottom: 5px solid black;
+}
+
+
+
+#common_list_title_other{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size : 25px;
+    width: 110px;
+    border-bottom: 5px solid black;
+}
+
+
+
+
+
+#profile_picture_profil_other {
+    width: 100%;
+    height: 350px;
+    margin-left : 50px;
+    background-color: rgb(229, 250, 210);
+    font-family: 'Roboto', sans-serif;
+    border-bottom:  5px solid black;
+}
+
+
+
+#profile_profil_other{
+    display: flex;
+    margin: auto;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+#profile1_other{
+    width: 100%;
+    margin-top: -30px;
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#my_profile_other{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+#add_friend_button_other,#remove_friend_button_other{
+    display: flex;
+    margin:auto;
+    margin-top: -10px;
+    background-color: rgb(137, 218, 183);
+    font-size: 18px;
+}
+
+
+#section_profil_other{
+    display: block;
+   
+}
+
+#messages_profil_other{
+    padding-left: 30px;
+    padding-top: 30px;
+}

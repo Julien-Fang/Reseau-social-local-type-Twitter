@@ -1,0 +1,84 @@
+#comment{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 900px;
+    margin-left : 20px;
+    margin-bottom: 10px;
+    border-radius : 15px;
+    opacity: 0.85;
+}
+
+
+#comment_infos{
+    padding : 5px;
+}
+
+#comment_msg{
+    padding : 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 850px;
+    height: 100px;
+    resize: none;
+    font-size: 18px;
+
+}
+
+#comment_msg:focus{
+    outline: none;
+    border-color: #9ac0cd;
+    box-shadow: 0 0 0 2px rgba(0, 126, 255, 0.1);
+}
+
+#comment_coeur {
+    background-color: white; /* couleur de fond du bouton */
+    border: 1px solid black; /* contour noir */
+    margin-left: 2px;
+}
+
+
+#comment_button_delete{
+    margin-left :75%;
+    font-weight: bold;
+}
+
+#comment_button_delete:hover{
+    background-color: red;
+    color: #fff;
+}
+
+#post_button_modify{
+    margin-left : 10px;
+    font-weight: bold;
+}
+
+#post_button_modify:hover{
+    background-color: green;
+    color: #fff;
+}
+
+#contenu_comment_edit1{
+    resize: none;
+    border : 1px solid black;
+    padding: 5px;
+    height: 100px;
+    width: 600px;
+    font-size: 18px;
+}
+
+#comment_button_save,#comment_button_cancel{
+    margin-left : 10px;
+    font-weight: bold;
+}
+
+#comment_button_save:hover{
+    background-color: green;
+    color: #fff;
+}
+
+
+#comment_button_cancel:hover{
+    background-color: red;
+    color: #fff;
+}

@@ -1,0 +1,117 @@
+/*
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(212, 233, 212);		
+}*/
+body{
+    background-image: url("./background_image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#form_login {
+    display: grid;
+    grid-template-columns: 150px 150px;
+
+    /*border: medium solid black;*/
+    padding: 5%;
+    width: 300px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+
+
+#login_connexion {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: rgb(150, 216, 150);
+    margin-left: 20%;
+    margin-right: 20%;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#login_cancel {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: rgb(216, 150, 150);
+    margin-left: 20%;
+    margin-right: 20%;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+}
+
+input {
+    margin-bottom: 1.5em;
+}
+
+#signup {
+    width: 225px;
+    padding-top: 30px;
+    padding-left: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#co{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 120px;
+}
+
+#logo_login {
+    display: flex;
+    margin-left: -55px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    /*border : 2px solid black;*/
+}
+
+#connection_link {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: rgb(150, 216, 150);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+#msg_login{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: -120px;
+    margin-top: 30px;
+    color : red;
+}
+
+
+button:hover {
+ /* background-color: #007bff;*/
+  color: #ffffff;
+  /*border: 1px solid #007bff;*/
+  border : 1px solid black;
+  transform: scale(1.3);
+  
+}
+
+button{
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
